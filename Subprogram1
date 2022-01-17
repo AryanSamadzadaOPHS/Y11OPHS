@@ -1,0 +1,11 @@
+def menu():
+    print("Fifa 47")
+    print("Please choose an option")
+    print("")
+
+    print("1) Career Mode")
+    print("2) Tournament Mode")
+    print("3) Online seasons")
+    print("4) Exit")
+
+menu()
