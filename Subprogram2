@@ -1,0 +1,32 @@
+def menu():
+
+
+     
+    print("Call of Duty: Duty Calls")
+    print("Please choose an option")
+    print("")
+
+    print("1) Domination")
+    print("2) Team Deathmatch")
+    print("3) Headquarters")
+    print("4) Exit")
+
+    choice = int(input("Enter 1,2,3 or 4"))
+    if choice == 1:
+        print("Domination Chosen")
+        singleplayer()
+        
+    elif choice == 2:
+        print("Team Deathmatch")
+
+    elif choice == 3:
+        print("Headquarters")
+        online()
+        
+    elif choice == 4:
+        print("Exiting Game")
+        
+
+    else:
+        print("Invalid Choice")
+menu()
