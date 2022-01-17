@@ -1,1 +1,31 @@
+def menu():
 
+
+     
+    print("Mario Kart")
+    print("Please choose an option")
+    print("")
+
+    print("1) 1-Player")
+    print("2) 2-Player")
+    print("3) Online")
+    print("4) Exit")
+
+    choice = int(input("Enter 1,2,3 or 4"))
+    if choice == 1:
+        print("1-Player Chosen")
+        singleplayer()
+        
+    elif choice == 2:
+        print("2-Player Chosen")
+
+    elif choice == 3:
+        print("Online Chosen")
+        
+        
+    elif choice == 4:
+        print("Exiting Game")
+        
+    else:
+        print("Invalid Choice")
+menu()
