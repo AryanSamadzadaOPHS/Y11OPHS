@@ -1,1 +1,47 @@
-3
+def menu():
+
+
+     
+    print("Spero")
+    print("Please choose an option")
+    print("")
+
+    print("1) think big")
+    print("2) think bigger")
+    print("3) winning")
+    print("4) winner")
+    print("5) Exit")
+
+    choice = int(input("Enter 1,2,3, 4 or 5"))
+    if choice == 1:
+        def chosen():
+            print("think big chosen")
+        chosen()
+        
+    elif choice == 2:
+        def chosen2():
+            print("think bigger chosen")
+        chosen2()
+            
+    
+    elif choice == 3:
+        def chosen3():
+            print("winning chosen")
+        chosen3()
+        
+        
+    elif choice == 4:
+        def chosen4():
+            print("winner chosen")
+        chosen4()
+        
+
+    elif choice == 5:
+        def chosen5():
+            print("Bye")
+        chosen5()
+        
+    else:
+        print("Invalid Choice")
+        menu()
+menu()
